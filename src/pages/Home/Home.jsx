@@ -23,8 +23,10 @@ export default function Home() {
                     <button className='btn'><img src={play_icon} alt="not found" />Play</button>
                     <button className='btn dark-btn'><img src={info_icon} alt="not found" />More Info</button>
                 </div>
-
-                <TitleCards title={'Popular on Netflix'} />
+                
+                <div className="title-cards">
+                    <TitleCards className="title-cards" title={'Popular on Netflix'} />
+                </div>
             </div>
         </div>
 
